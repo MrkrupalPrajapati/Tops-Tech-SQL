@@ -1,0 +1,4 @@
+contactId,companyId,First_name,last_name,Street,city,state,zip,isMain,Email,Phone
+1,1,Alice,Brown,"123 Tech Lane","San Francisco",CA,94101,1,a@techcorp.com,1112223333
+2,2,Michael,Green,"456 Health Blvd",Austin,TX,73301,0,m@healthinc.com,2223334444
+3,3,Sophia,Lee,"789 Edu Street",Seattle,WA,98101,1,s@eduworld.com,3334445555

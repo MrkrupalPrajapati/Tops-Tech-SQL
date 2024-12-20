@@ -1,0 +1,4 @@
+Employee_id,First_name,last_name,Salary,HireDate,jobTitle,Email,Phone
+1,John,Doe,75000.00,2022-05-01,Manager,john@techcorp.com,9988774433
+2,Jane,Smith,60000.00,2023-02-15,Developer,jane@healthinc.com,9453627856
+3,Emily,Clark,55000.00,2021-11-12,Analyst,emily@eduworld.com,9904545281

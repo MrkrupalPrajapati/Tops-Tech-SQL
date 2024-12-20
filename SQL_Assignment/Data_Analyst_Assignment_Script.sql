@@ -22,6 +22,7 @@ VALUES
 ('Health Inc', '456 Elm St', 'Austin', 'TX', 73301),         -- Company 2 details
 ('EduWorld', '789 Pine Ave', 'Seattle', 'WA', 98101);        -- Company 3 details
 
+select * from Company;
 -- Create the Employee table to store employee details
 CREATE TABLE Employee (
     Employee_id INT AUTO_INCREMENT PRIMARY KEY,   -- Primary key for employees
@@ -61,6 +62,7 @@ CREATE TABLE Contact (
     FOREIGN KEY (companyId) REFERENCES Company(companyID) -- Link contact to company
 );
 
+select * from contact;
 drop table contact;
 
 -- Insert data into the Contact table
@@ -81,6 +83,7 @@ CREATE TABLE ContactEmployee (
     FOREIGN KEY (Employee_id) REFERENCES Employee(Employee_id) -- Link to Employee table
 );
 
+select * from ContactEmployee;
 drop table ContactEmployee;
 
 -- Insert data into the ContactEmployee table
@@ -94,6 +97,8 @@ VALUES
 (1, 1, '2023-06-10', 'Discussed project collaboration'),
 (2, 2, '2023-07-20', 'Negotiated contract details'),
 (3, 3, '2023-08-15', 'Explored potential partnership opportunities');
+
+select * from employee;
 
 
 -- Ansewer 1 )  Create contact Table :- 
